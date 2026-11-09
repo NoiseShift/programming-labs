@@ -622,7 +622,7 @@ class GripperApp(tk.Tk):
         else:
             wp_y = table_y - wp_h
 
-        wp_color = "#dee2e6" if wp.is_porous else "#ffc107"
+        wp_color = "#ffc107" if wp.is_porous else "#dee2e6"
         wp_outline = "#495057"
 
         # Текстура пористой поверхности
